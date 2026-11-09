@@ -179,3 +179,27 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+.venv/
+.env
+.streamlit/secrets.toml
+chroma_db/
+__pycache__/
+
+# Environment
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Vector database
+chroma_db/
+
+# PDF documents
+*.pdf
+
+# Temporary files
+*.tmp
+*.log

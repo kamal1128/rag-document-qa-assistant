@@ -1,0 +1,46 @@
+
+# =====================================
+# RAG APPLICATION - REQUIREMENTS
+# =====================================
+
+# 1. Frontend
+streamlit
+
+# 2. LangChain Framework
+langchain
+langchain-core
+langchain-text-splitters
+
+# 3. LLM Integrations
+langchain-groq
+langchain-ollama
+
+# 4. Vector Database
+langchain-chroma
+chromadb
+
+# 5. Embeddings
+sentence-transformers
+langchain-huggingface
+
+# 6. Document Loaders
+langchain-community
+pypdf
+
+# 7. Environment Variables
+python-dotenv
+
+# 8. Data Processing
+numpy
+pandas
+
+# 9. Utilities
+requests
+tiktoken
+
+# 10. Optional: Evaluation
+ragas
+
+# 11. Optional: API Backend
+fastapi
+uvicorn
